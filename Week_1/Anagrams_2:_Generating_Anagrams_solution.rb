@@ -1,4 +1,5 @@
 # Solution for Challenge: Anagrams 2: Generating Anagrams. Started 2013-08-08T00:52:53+00:00def canonical(word)
+def canonical(word)
   word.downcase.split('').sort.join
 end
 
